@@ -1,0 +1,452 @@
+
+#page {
+    opacity: 0;
+}
+
+.page-header {
+    clear: both;
+    padding-top: 2em;
+}
+
+.hero-unit h1 {
+    font-size: 2.3em;
+}
+
+.span3 p {
+    font-size: 10pt;
+}
+
+li {
+    list-style-type: none;
+}
+
+.forPrint {
+    display: none;
+}
+
+.page-header,.footer {
+    clear: both;
+}
+
+.carousel-inner img {
+    height: 300px;
+    width: 100%;
+}
+
+#printBtn,#downBtn {
+    width: 100%;
+    margin: 10px 0 0 -10px;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+
+.footer,.push {
+    height: 4em;
+}
+
+.footer {
+    padding: 14px 15px 15px;
+    margin-bottom: 0;
+}
+
+p {
+    font-weight: 300;
+    font-size: 14pt;
+    line-height: 20pt;
+}
+
+h1 {
+    font-size: 48pt;
+    font-weight: 100;
+    line-height: 60pt;
+}
+
+.span4 h1 {
+    font-size: 39pt;
+}
+
+p a {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+p a:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+
+p a.btn {
+    text-decoration: none !important;
+}
+
+/* colors */
+h1 {
+    color: #FFF;
+}
+
+h2 {
+    color: #FFF;
+}
+
+h3 {
+    color: #FFF;
+}
+
+h4 {
+    color: #FFF;
+}
+
+h5 {
+    color: #FFF;
+}
+
+h6 {
+    color: #FFF;
+}
+
+p {
+    color: #FFF;
+}
+
+.navbar-fixed-top {
+    position: fixed;
+    margin-bottom: 18px;
+}
+
+/* footer */
+.footer {
+    background: #333;
+    margin-top: 3em;
+}
+
+.footer p {
+    font-size: 11pt;
+}
+
+.footer p,.footer h1,.footer h2,.footer h3,.footer h4,.footer h5,footer h6 {
+    color: #FFF;
+}
+
+/* elements */
+span.rnd {
+    font-size: 14px;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    width: 44px;
+    height: 44px;
+    text-indent: 8px;
+    line-height: 44px;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 2px;
+    font-weight: 400;
+    text-transform: lowercase;
+    font-weight: 800;
+    font-style: italic;
+    text-shadow: 1px 2px 0 rgba(0,0,0,0.075);
+    -webkit-box-shadow: 1px 2px 0 0 rgba(0,0,0,0.075);
+    -moz-box-shadow: 1px 2px 0 0 rgba(0,0,0,0.075);
+}
+
+.story {
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+/* pages */
+#home,#second {
+    background: url(https://s3.amazonaws.com/kimi-mattig-louria/assets/img/secondBG.jpg) no-repeat fixed;
+    color: #FFF;
+    height: 1300px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+}
+
+#third {
+    background: #ac7e55;
+    margin: 0 auto;
+    padding: 40px 0 200px;
+}
+
+#third p,#third h1,#third h2,#third h3,#third h4,#third h5,#third h6 {
+    color: #FFF;
+}
+
+#third h2 {
+    font-weight: 300;
+}
+
+#fifth {
+    background: #ac7e55;
+    height: 800px;
+    margin: 0 auto;
+    padding: 40px 0 0;
+}
+
+[class^=icon-],[class*=" icon-"] {
+    height: 18px;
+    line-height: 14px;
+    vertical-align: middle;
+}
+
+/* global */
+div.ui-cluetip {
+    font-size: 1em;
+}
+
+.ui-cluetip-header,.ui-cluetip-content {
+    padding: 12px;
+}
+
+.ui-cluetip-header {
+    font-size: 1em;
+    margin: 0;
+    overflow: hidden;
+}
+
+.cluetip-title .cluetip-close {
+    float: right;
+    position: relative;
+}
+
+.cluetip-close img {
+    border: 0;
+}
+
+#cluetip-waitimage {
+    width: 43px;
+    height: 11px;
+    position: absolute;
+    background-image: url(https://s3.amazonaws.com/kimi-mattig-louria/assets/img/wait.gif);
+}
+
+.cluetip-arrows {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: -11px;
+    width: 11px;
+    height: 22px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    border-width: 0;
+}
+
+.cluetip-extra {
+    display: none;
+}
+
+/***************************************
+   =cluetipClass: 'default'
+-------------------------------------- */
+.cluetip-default,.cluetip-default .cluetip-outer {
+    background-color: #d9d9c2;
+}
+
+.cluetip-default .ui-cluetip-header {
+    background-color: #87876a;
+}
+
+/*
+.cluetip-default #cluetip-outer {
+  position: relative;
+  margin: 0;
+  background-color: #d9d9c2;
+}
+.cluetip-default h3#cluetip-title {
+  margin: 0 0 5px;
+  padding: 8px 10px 4px;
+  font-size: 1.1em;
+  font-weight: normal;
+  background-color: #87876a;
+  color: #fff;
+}
+.cluetip-default #cluetip-title a {
+  color: #d9d9c2;
+  font-size: 0.95em;
+}
+.cluetip-default #cluetip-inner {
+  padding: 10px;
+}
+.cluetip-default div#cluetip-close {
+  text-align: right;
+  margin: 0 5px 5px;
+  color: #900;
+}
+*/
+/* default arrows */
+.cluetip-default .cluetip-arrows {
+    border-width: 0;
+    background: transparent none;
+}
+
+.clue-right-default .cluetip-arrows {
+    background-image: url(https://s3.amazonaws.com/kimi-mattig-louria/assets/img/darrowleft.gif);
+}
+
+.clue-left-default .cluetip-arrows {
+    background-image: url(https://s3.amazonaws.com/kimi-mattig-louria/assets/img/darrowright.gif);
+    left: 100%;
+    margin-right: -11px;
+}
+
+.clue-top-default .cluetip-arrows {
+    background-image: url(https://s3.amazonaws.com/kimi-mattig-louria/assets/img/darrowdown.gif);
+    top: 100%;
+    left: 50%;
+    margin-left: -11px;
+    width: 22px;
+    height: 11px;
+}
+
+.clue-bottom-default .cluetip-arrows {
+    background-image: url(https://s3.amazonaws.com/kimi-mattig-louria/assets/img/darrowup.gif);
+    top: -11px;
+    left: 50%;
+    margin-left: -11px;
+    width: 22px;
+    height: 11px;
+}
+
+/***************************************
+   =cluetipClass: 'jtip'
+-------------------------------------- */
+.cluetip-jtip {
+    background-color: #fff;
+}
+
+.cluetip-jtip .cluetip-outer {
+    border: 2px solid #ccc;
+    position: relative;
+    background-color: #fff;
+}
+
+.cluetip-jtip .cluetip-inner {
+    padding: 5px;
+    display: inline-block;
+}
+
+.cluetip-jtip .cluetip-close {
+    text-align: right;
+    margin: 0 5px;
+    color: #900;
+}
+
+.cluetip-jtip .ui-cluetip-header {
+    background-color: #ccc;
+    padding: 6px;
+/*  margin-bottom: 1em;*/
+}
+
+/* jtip arrows */
+.cluetip-jtip .cluetip-arrows {
+    border-width: 0;
+    background: transparent none;
+}
+
+.clue-right-jtip .cluetip-arrows {
+    background-image: url(https://s3.amazonaws.com/kimi-mattig-louria/assets/img/arrowleft.gif);
+}
+
+.clue-left-jtip .cluetip-arrows {
+    background-image: url(https://s3.amazonaws.com/kimi-mattig-louria/assets/img/arrowright.gif);
+    left: 100%;
+    margin-right: -11px;
+}
+
+.clue-top-jtip .cluetip-arrows {
+    background-image: url(https://s3.amazonaws.com/kimi-mattig-louria/assets/img/arrowdown.gif);
+    top: 100%;
+    left: 50%;
+    width: 22px;
+    height: 11px;
+    margin-left: -11px;
+}
+
+.clue-bottom-jtip .cluetip-arrows {
+    background-image: url(https://s3.amazonaws.com/kimi-mattig-louria/assets/img/arrowup.gif);
+    top: -11px;
+    left: 50%;
+    width: 22px;
+    height: 11px;
+    margin-left: -11px;
+}
+
+/***************************************
+   =cluetipClass: 'rounded'
+-------------------------------------- */
+.cluetip-rounded {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.cluetip-rounded .cluetip-outer {
+    background-color: #fff;
+}
+
+.cluetip-rounded .cluetip-arrows {
+    border-color: #ccc;
+}
+
+/* need to be more specific here to override ThemeRoller defaults */
+.cluetip-rounded .cluetip-arrows {
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    background: transparent none;
+}
+
+.clue-right-rounded .cluetip-arrows {
+    border-width: 11px 11px 11px 0;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+
+.clue-left-rounded .cluetip-arrows {
+    left: 100%;
+    margin-right: -11px;
+    border-width: 11px 0 11px 11px;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.clue-top-rounded .cluetip-arrows {
+    top: 100%;
+    left: 50%;
+    border-width: 11px 11px 0;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+
+.clue-bottom-rounded .cluetip-arrows {
+    top: -11px;
+    left: 50%;
+    border-width: 0 11px 11px;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+}
+
+/* stupid IE6 HasLayout hack */
+.cluetip-rounded .cluetip-title,.cluetip-rounded .cluetip-inner {
+    zoom: 1;
+}
+
+li span {
+    float: right;
+}
